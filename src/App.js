@@ -2,27 +2,17 @@ import React from 'react';
 import Headers from './Headers';
 import Article from './Article';
 import Footer from './Footer';
+import { Button } from 'reactstrap';
 
-/*
-function App() {
+function App (props){
   return (
     <div>
-      teste
+      <Headers />
+      <Article />
+      <Footer />
+      <Button color="danger">Danger!</Button>
     </div>
   );
-}
-*/
-
-class App extends React.Component{
-  render(){
-    return (
-      <div>
-        <Headers />
-        <Article />
-        <Footer />
-      </div>
-    );
-  }
-}
+};
 
 export default App;
