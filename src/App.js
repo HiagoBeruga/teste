@@ -1,14 +1,10 @@
 import React from 'react';
-import Headers from './Headers';
-import Article from './Article';
-import Footer from './Footer';
+import Routes from './routes';
 
 function App (props){
   return (
     <div>
-      <Headers />
-      <Article />
-      <Footer />
+      <Routes />
     </div>
   );
 };
