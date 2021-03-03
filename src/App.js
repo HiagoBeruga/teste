@@ -2,7 +2,6 @@ import React from 'react';
 import Headers from './Headers';
 import Article from './Article';
 import Footer from './Footer';
-import { Button } from 'reactstrap';
 
 function App (props){
   return (
@@ -10,7 +9,6 @@ function App (props){
       <Headers />
       <Article />
       <Footer />
-      <Button color="danger">Danger!</Button>
     </div>
   );
 };
