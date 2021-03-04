@@ -31,11 +31,10 @@ function Main() {
         <div>
             <Headers />
             <Jumbotron>
-                <h1 className="display-3">Olá, amigo!</h1>
-                <p className="lead">Este site é um simples exercício de aprendizado meu, compreendendo as funcionalidades do React.</p>
+                <h4 align="center" className="display-3">Bem-vindo(a)!</h4>
+                <p align="center" className="lead">Este site é um simples exercício de aprendizado meu, compreendendo as funcionalidades do React.</p>
                 <hr className="my-2" />
                 <p className="lead">
-                    <Button color="info">Botãozinho lindo clique aqui ihul</Button>
                 </p>
                 <UncontrolledCarousel items={items} />
             </Jumbotron>

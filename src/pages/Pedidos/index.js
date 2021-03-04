@@ -1,11 +1,14 @@
 import React from 'react';
 import Headers from '../../Headers';
+import { Jumbotron, Button } from 'reactstrap';
 
 function Pedidos() {
     return (
         <div>
             <Headers />
-            <h1>Pedidos</h1>
+            <Jumbotron>
+                <h1>Pedidos</h1>
+            </Jumbotron>
         </div>
     );
 }
