@@ -22,7 +22,8 @@ const Headers = (props) => {
   return (
     <div>
       <Navbar color="info" dark expand="md">
-        <NavbarBrand href="/"><b>Meu Portfolio</b></NavbarBrand>
+        <img src="./imagens/favicon.png" width="30"></img>
+        <NavbarBrand href="/"><b>Hiagomess</b></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
