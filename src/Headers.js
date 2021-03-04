@@ -41,6 +41,9 @@ const Headers = (props) => {
                 </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
+                  <NavLink className="text-info" href="https://instagram.com/hiagomess" target="_blank">Instagram</NavLink>
+                </DropdownItem>
+                <DropdownItem>
                   <NavLink className="text-info" href="https://api.whatsapp.com/send?phone=5534996901687&text=oi" target="_blank">Whatsapp</NavLink>
                 </DropdownItem>
                 <DropdownItem>
