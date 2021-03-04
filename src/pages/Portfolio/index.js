@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Headers from '../../Headers';
 import { desenhos1, desenhos2 } from '../../desenhos';
-import { Jumbotron, Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Jumbotron, Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody} from 'reactstrap';
 
 const Portfolio = (props) => {
 
@@ -23,7 +23,8 @@ const Portfolio = (props) => {
                                 <CardTitle tag="h5">{desenho1.title}</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">{desenho1.subtitle}</CardSubtitle>
                                 <CardText>{desenho1.text}</CardText>
-                                <a target="_blank" href={desenho1.srca}><Button color="info" >Visualizar Imagem Completa</Button></a>
+                                <a target="_blank" href={desenho1.srca}><Button color="info" ><h5>Visualizar</h5></Button></a>
+                                <a download="desenho.jpg" href={desenho1.srca}><Button color="primary" ><i class="material-icons">download</i></Button></a>
                             </CardBody>
                         </Card>
                     ))}
@@ -36,7 +37,8 @@ const Portfolio = (props) => {
                                 <CardTitle tag="h5">{desenho2.title}</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">{desenho2.subtitle}</CardSubtitle>
                                 <CardText>{desenho2.text}</CardText>
-                                <a target="_blank" href={desenho2.srca}><Button color="info" >Visualizar Imagem Completa</Button></a>
+                                <a target="_blank" href={desenho2.srca}><Button color="info" ><h5>Visualizar</h5></Button></a>
+                                <a download="desenho.jpg" href={desenho2.srca}><Button color="primary" ><i class="material-icons">download</i></Button></a>
                             </CardBody>
                         </Card>
                     ))}

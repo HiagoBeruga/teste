@@ -30,7 +30,7 @@ const Headers = (props) => {
               <NavLink href="/" exact>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/pedidos">Pedidos</NavLink>
+              <NavLink href="/encomendas">Encomendas</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/portfolio">Portfolio</NavLink>
@@ -44,7 +44,7 @@ const Headers = (props) => {
                   <NavLink className="text-info" href="https://instagram.com/hiagomess" target="_blank">Instagram</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink className="text-info" href="https://api.whatsapp.com/send?phone=5534996901687&text=oi" target="_blank">Whatsapp</NavLink>
+                  <NavLink className="text-info" href="https://api.whatsapp.com/send?phone=5534996901687" target="_blank">Whatsapp</NavLink>
                 </DropdownItem>
                 <DropdownItem>
                   <NavLink className="text-info" href="https://github.com/HiagoBeruga" target="_blank">GitHub</NavLink>

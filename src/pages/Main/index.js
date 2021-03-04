@@ -1,6 +1,6 @@
 import React from 'react';
 import Headers from '../../Headers';
-import { Jumbotron, Button, UncontrolledCarousel } from 'reactstrap';
+import { Jumbotron, UncontrolledCarousel } from 'reactstrap';
 
 const items = [
     {
